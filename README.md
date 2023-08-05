@@ -1,3 +1,9 @@
+Setting up the Environment:
+
+To enable facial detection, you need to install OpenCV. Simply use pip to install OpenCV by executing the following command in your terminal or command prompt: pip install opencv-python.
+
+Readme:
+
 This code utilizes the Haar cascade classifier, which is a part of OpenCV's data directory, for facial detection. The classifier is employed to locate and distinguish faces in the video stream.
 
 To initiate the camera object, the code uses cv2.VideoCapture(). In case you prefer using a video clip instead of a camera, you can specify the file name as an argument during the function call.
